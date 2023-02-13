@@ -27,4 +27,6 @@ setTimeout(function() {
     }
   }
 
-
+//4.Dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali numeri sono stati individuati tramite console.log
+console.log("Hai indovinato", correctNumbers.length, "numeri:", correctNumbers);
+}, 30000);
