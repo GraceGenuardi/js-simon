@@ -1,5 +1,11 @@
 //1.Visualizzare in pagina 5 numeri casuali con alert.
 
+//Ciclo for per mostrare i numeri generati randon con math.random, arrotondiamo con math.floor
+for (let i = 0; i < 5; i++) {
+    let randomNumber = Math.floor(Math.random() * 5);
+    alert(randomNumber);
+  }
+
 
 //2.Dopo che l’utente ha chiuso l’alert fate partire un timer di 30 secondi.
 
